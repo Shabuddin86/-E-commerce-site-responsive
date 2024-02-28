@@ -1,0 +1,142 @@
+.title1{
+
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 66px;
+
+
+}
+
+
+.Title{
+
+
+color: black;
+display: flex;
+
+}
+.span2{
+    
+    color: green;
+    margin-left: 10px;
+
+}
+
+
+.title-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+font-size: 15px;
+
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+width: 600px;
+margin-left: 300px;
+margin-top: 50px;
+height: 500px;
+}
+
+.input-group, .textarea-group
+{
+    padding: 1% 0;
+}
+
+input, textarea
+{
+    color: inherit;
+    width: 300px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #757575;
+    padding: 1.5%;
+    font-size: 20px;
+}
+input:focus, textarea:focus
+{
+    background-color: transparent;
+    outline: transparent;
+    border-bottom: 2px solid #69f0ae;
+}
+
+input::placeholder, textarea::placeholder
+{
+    color: transparent;
+}
+
+label
+{
+    color: #757575;
+    position: relative;
+    left: 0.5em;
+    top: -2em;
+	cursor: auto;
+    transition: 0.3s ease all;
+}
+
+ input:focus ~ label, input:not(:placeholder-shown) ~ label
+{
+    top: -4em;
+    color: #69f0ae;
+    font-size: 15px;
+} 
+
+textarea:focus ~ label, textarea:not(:placeholder-shown) ~ label
+{
+    top: -10.5em;
+    color: #69f0ae;
+    font-size: 15px;
+}  
+
+.button-div1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 700px;
+height: 70%;
+
+}
+
+ .button1
+{
+    padding: 2%;
+    width: 50%;
+    border: 1px solid;
+    border-color: #212121;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 18px;
+    background-color:black;
+    color: white;
+    
+}
+
+.button1:hover
+{
+    background-color: #424242;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px green;
+} 
+
+#last-name{  width: 600px;
+
+}
+#first-name{  width: 600px;}
+#e-mail{  width: 600px;}
+
+#Message{width: 600px;}
+
+
+
+/* Media queries */
+
+
